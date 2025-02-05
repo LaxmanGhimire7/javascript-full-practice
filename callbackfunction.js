@@ -391,3 +391,34 @@ let newExcel=exclamation.forEach((huuh)=>{
     console.log(huuh+"!");
 })
 
+//22. Use `forEach` to log the index and value of each element in an array. 
+
+let inde=["banana", "apple","hello","ram"]
+let newIndex=inde.forEach((x,y)=>{
+console.log(`Index ${y} and value:${x}`);
+});
+
+//23. Use `forEach` to log only the odd numbers from an array. 
+let oddNum=[1,2,3,4,5,6,7,8,9,10]
+let newOddNum=oddNum.forEach((odds)=>{
+    if(odds%2!=0){
+        console.log(odds);
+    }
+})
+
+//24. Write a function that uses `forEach` to log numbers greater than 10 from an array. 
+let great=[1,5,9,10,15,17,99,10000000000000];
+let newGreat=great.forEach((van)=>{
+    if(van>10){
+        console.log(van);
+    }
+})
+
+//25. Use `forEach` to concatenate all strings in an array into a single string and log it. 
+let con=["I am Laxman", "and I am 21 years old."]
+let newCon='';
+
+con.forEach((best)=>{
+  newCon=newCon+" "+best;
+})
+console.log(newCon.trim());
