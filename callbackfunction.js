@@ -373,3 +373,21 @@ let newSumn=sumn.forEach((oop)=>{
 console.log(sano);
 
 
+//19.Use `forEach` to multiply each number in an array by 2 and log the results. 
+let arreey=[1,2,3,4,50,6,7]
+let newArreey=arreey.forEach((mull)=>{
+      console.log(mull*2);
+})
+
+//20. Use `forEach` to log each string in an array in uppercase. 
+let upper=["hi", "hello","bye"]
+let newUpper=upper.forEach((foog)=>{
+    console.log(foog.toUpperCase());
+})
+
+//21. Use `forEach` to add an exclamation mark to each string in an array and log the new strings. 
+let exclamation=["Hello There", "How are you"]
+let newExcel=exclamation.forEach((huuh)=>{
+    console.log(huuh+"!");
+})
+
